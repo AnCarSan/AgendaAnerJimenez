@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9C9DE1297961D800AF1312 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C9DE0297961D800AF1312 /* DataManager.swift */; };
+		0D9C9DE32979622A00AF1312 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C9DE22979622A00AF1312 /* Events.swift */; };
+		0D9C9DE52979627F00AF1312 /* EventsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C9DE42979627F00AF1312 /* EventsRow.swift */; };
 		0DDB609829755B890075288E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB609729755B890075288E /* AppDelegate.swift */; };
 		0DDB609A29755B890075288E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB609929755B890075288E /* SceneDelegate.swift */; };
 		0DDB609C29755B890075288E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB609B29755B890075288E /* ViewController.swift */; };
@@ -16,6 +19,11 @@
 		0DDB60AF29755B8B0075288E /* AgendaAnerJimenezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB60AE29755B8B0075288E /* AgendaAnerJimenezTests.swift */; };
 		0DDB60B929755B8B0075288E /* AgendaAnerJimenezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB60B829755B8B0075288E /* AgendaAnerJimenezUITests.swift */; };
 		0DDB60BB29755B8B0075288E /* AgendaAnerJimenezUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB60BA29755B8B0075288E /* AgendaAnerJimenezUITestsLaunchTests.swift */; };
+		0DDDF2F42979575700B6626D /* ViewControllerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDF2F32979575700B6626D /* ViewControllerListView.swift */; };
+		0DDDF2F62979577200B6626D /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDF2F52979577200B6626D /* CreateEventViewController.swift */; };
+		0DDDF2F82979578A00B6626D /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDF2F72979578A00B6626D /* ViewControllerRegistro.swift */; };
+		0DDDF2FA2979585400B6626D /* ViewControllerBorrarEvento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDF2F92979585400B6626D /* ViewControllerBorrarEvento.swift */; };
+		0DF0FFC02977ED6E00963178 /* ViewControllerDelMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0FFBF2977ED6E00963178 /* ViewControllerDelMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D9C9DE0297961D800AF1312 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0D9C9DE22979622A00AF1312 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		0D9C9DE42979627F00AF1312 /* EventsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRow.swift; sourceTree = "<group>"; };
 		0DDB609429755B890075288E /* AgendaAnerJimenez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaAnerJimenez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDB609729755B890075288E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DDB609929755B890075288E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		0DDB60B429755B8B0075288E /* AgendaAnerJimenezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaAnerJimenezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDB60B829755B8B0075288E /* AgendaAnerJimenezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaAnerJimenezUITests.swift; sourceTree = "<group>"; };
 		0DDB60BA29755B8B0075288E /* AgendaAnerJimenezUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaAnerJimenezUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DDDF2F32979575700B6626D /* ViewControllerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerListView.swift; sourceTree = "<group>"; };
+		0DDDF2F52979577200B6626D /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		0DDDF2F72979578A00B6626D /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
+		0DDDF2F92979585400B6626D /* ViewControllerBorrarEvento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBorrarEvento.swift; sourceTree = "<group>"; };
+		0DF0FFBF2977ED6E00963178 /* ViewControllerDelMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDelMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +118,15 @@
 				0DDB609729755B890075288E /* AppDelegate.swift */,
 				0DDB609929755B890075288E /* SceneDelegate.swift */,
 				0DDB609B29755B890075288E /* ViewController.swift */,
+				0DDDF2F32979575700B6626D /* ViewControllerListView.swift */,
+				0D9C9DE42979627F00AF1312 /* EventsRow.swift */,
+				0D9C9DE0297961D800AF1312 /* DataManager.swift */,
+				0D9C9DE22979622A00AF1312 /* Events.swift */,
+				0DDDF2F52979577200B6626D /* CreateEventViewController.swift */,
+				0DDDF2F72979578A00B6626D /* ViewControllerRegistro.swift */,
+				0DF0FFBF2977ED6E00963178 /* ViewControllerDelMenu.swift */,
 				0DDB609D29755B890075288E /* Main.storyboard */,
+				0DDDF2F92979585400B6626D /* ViewControllerBorrarEvento.swift */,
 				0DDB60A029755B8A0075288E /* Assets.xcassets */,
 				0DDB60A229755B8A0075288E /* LaunchScreen.storyboard */,
 				0DDB60A529755B8A0075288E /* Info.plist */,
@@ -258,9 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDDF2F62979577200B6626D /* CreateEventViewController.swift in Sources */,
+				0DDDF2F82979578A00B6626D /* ViewControllerRegistro.swift in Sources */,
 				0DDB609C29755B890075288E /* ViewController.swift in Sources */,
 				0DDB609829755B890075288E /* AppDelegate.swift in Sources */,
+				0D9C9DE32979622A00AF1312 /* Events.swift in Sources */,
 				0DDB609A29755B890075288E /* SceneDelegate.swift in Sources */,
+				0DF0FFC02977ED6E00963178 /* ViewControllerDelMenu.swift in Sources */,
+				0DDDF2FA2979585400B6626D /* ViewControllerBorrarEvento.swift in Sources */,
+				0D9C9DE1297961D800AF1312 /* DataManager.swift in Sources */,
+				0D9C9DE52979627F00AF1312 /* EventsRow.swift in Sources */,
+				0DDDF2F42979575700B6626D /* ViewControllerListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
